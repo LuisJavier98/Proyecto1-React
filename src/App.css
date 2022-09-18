@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p,
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.App {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card_quote {
+    text-align: center;
+    font-family: monospace
+}
+
+button {
+    border: 0px solid black;
+    border-radius: 50px;
+    padding: 5px 9px;
+    align-self: flex-end;
+    margin: 8px;
+    box-shadow: 3px 3px 10px black;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    box-shadow: none;
+    transform: scale(1.08);
+}
+
+.card_author {
+    text-align: end;
+}
+
+.card_firstLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_comillas {
+    font-weight: 900;
+    font-size: 220%;
+    padding: 2%;
+    margin: 2%;
+}
